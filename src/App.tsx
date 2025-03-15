@@ -2,7 +2,7 @@ const App = () => {
   return (
     <div className="container mx-auto px-6 py-16">
       <h1 className="text-4xl font-bold mb-6">Gizlilik Politikası</h1>
-      <p className="text-gray-700 mb-4">Yürürlük Tarihi: 2 Mart 2025</p>
+      <p className="text-gray-700 mb-4">Yürürlük Tarihi: 15 Mart 2025</p>
 
       <h2 className="text-2xl font-bold mt-6">1. Giriş</h2>
       <p className="text-gray-700">
@@ -39,12 +39,13 @@ const App = () => {
       </p>
       <ul className="list-disc list-inside text-gray-700">
         <li>
-          <strong>Depolama:</strong> Zikir ilerlemenizi saklamak ve geri
-          yüklemek için.
+          <strong>Konum (isteğe bağlı):</strong> Bulunduğunuz konuma göre doğru namaz vakitlerini göstermek amacıyla konumunuza erişim isteyebiliriz. Bu bilgi yalnızca uygulama içinde kullanılır, dış sunuculara aktarılmaz ve üçüncü taraflarla paylaşılmaz.
         </li>
         <li>
-          <strong>Bildirimler:</strong> Zikir zamanlarınızı hatırlatmak için
-          (eğer kullanıcı tarafından etkinleştirilirse).
+          <strong>Depolama:</strong> Zikir ilerlemenizi ve konum tercihinizi saklamak için.
+        </li>
+        <li>
+          <strong>Bildirimler:</strong> Zikir zamanlarınızı ve namaz vakitlerini hatırlatmak için (eğer kullanıcı tarafından etkinleştirilirse).
         </li>
       </ul>
 
@@ -65,12 +66,11 @@ const App = () => {
 
       <h2 className="text-2xl font-bold mt-6">7. İletişim</h2>
       <p className="text-gray-700">
-        Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen
-        bizimle
+        Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa, lütfen bizimle
         <strong> kayrabtuncer@gmail.com</strong> üzerinden iletişime geçin.
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
