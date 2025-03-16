@@ -2,7 +2,7 @@ const App = () => {
   return (
     <div className="container mx-auto px-6 py-16">
       <h1 className="text-4xl font-bold mb-6">Gizlilik Politikası</h1>
-      <p className="text-gray-700 mb-4">Yürürlük Tarihi: 15 Mart 2025</p>
+      <p className="text-gray-700 mb-4">Yürürlük Tarihi: 16 Mart 2025</p>
 
       <h2 className="text-2xl font-bold mt-6">1. Giriş</h2>
       <p className="text-gray-700">
@@ -39,7 +39,10 @@ const App = () => {
       </p>
       <ul className="list-disc list-inside text-gray-700">
         <li>
-          <strong>Konum (isteğe bağlı):</strong> Bulunduğunuz konuma göre doğru namaz vakitlerini göstermek amacıyla konumunuza erişim isteyebiliriz. Bu bilgi yalnızca uygulama içinde kullanılır, dış sunuculara aktarılmaz ve üçüncü taraflarla paylaşılmaz.
+          <strong>Konum (isteğe bağlı):</strong> Bulunduğunuz konuma göre doğru namaz vakitlerini ve kıble yönünü göstermek amacıyla konumunuza erişim isteyebiliriz. Bu bilgi yalnızca uygulama içinde kullanılır, dış sunuculara aktarılmaz ve üçüncü taraflarla paylaşılmaz.
+        </li>
+        <li>
+          <strong>Pusula Sensörü (isteğe bağlı):</strong> Kıble yönünü gerçek zamanlı olarak göstermek amacıyla cihazınızın pusula sensörünü (manyetometre) kullanabiliriz. Bu bilgi yalnızca uygulama içinde kullanılır ve dışarı aktarılmaz.
         </li>
         <li>
           <strong>Depolama:</strong> Zikir ilerlemenizi ve konum tercihinizi saklamak için.
